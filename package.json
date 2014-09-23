@@ -1,0 +1,23 @@
+{
+  "name": "dat-hapi",
+  "version": "0.0.1",
+  "description": "Hapi plugins for DAT rest services",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nvcexploder/dat-hapi.git"
+  },
+  "author": "nvcexploder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nvcexploder/dat-hapi/issues"
+  },
+  "homepage": "https://github.com/nvcexploder/dat-hapi",
+  "dependencies": {
+    "dat-editor-prebuilt": "^1.0.20",
+    "hapi": "^6.8.1"
+  }
+}
